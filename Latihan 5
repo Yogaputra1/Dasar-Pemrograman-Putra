@@ -1,0 +1,5 @@
+#Contoh list
+list_yoga = [1, "crystal", 3,14]
+list_yoga [1] = "obsidian" #mengubah elemen
+list_yoga.append (64)     #menanmbah elemen
+print(list_yoga) # Output: [1, 'obdidian', 3,14, 64]
