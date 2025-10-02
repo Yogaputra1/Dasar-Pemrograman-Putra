@@ -1,0 +1,8 @@
+people = ['chiya', 'chiyara', 'chi', 'yara']
+ages = [13, 14, 15, 16]
+position = 0
+while position < len (people) :
+    person = people [position]
+    age = ages [position]
+    print(person,age)
+    position += 1
