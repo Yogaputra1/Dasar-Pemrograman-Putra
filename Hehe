@@ -1,0 +1,10 @@
+#Menentukan total harga jik di diskon
+uangan = int(input("Total belanjaan mu : "))
+if uangan >= 1000000 :
+    discount = 25/100
+elif uangan >= 500000 :
+    discount = 10/100
+else:
+    discount = 0
+bayar = uangan - (uangan*discount)
+print("Total bayaran mu : ",bayar)
