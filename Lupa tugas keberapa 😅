@@ -1,0 +1,11 @@
+#menentukan nilai
+nilai = int(input("Input nilai Anda : "))
+if nilai >= 91:
+     huruf = "A"
+elif nilai >= 81:
+     huruf = "B"
+elif nilai >= 75:
+     huruf = "C"
+else:
+     huruf = "D"
+print("Nilai anda adalah :", huruf)
