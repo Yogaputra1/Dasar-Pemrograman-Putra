@@ -1,0 +1,22 @@
+for number in [0, 1, 2, 3, 4] :
+    print (number)
+for number in range (5) :
+    print (number)
+surnames = ['isal', 'chiya', 'jeri']
+for position in range (len(surnames)) :
+    print (position, surnames [position])
+surnames = ['hasna', 'chiya', 'isal']
+for surname in surnames :
+    print (surname)
+people = ['hasna', 'chiya', 'isal', 'azka']
+ages = [15, 15, 15, 14]
+for position in range (len(people)) :
+    person = people[position]
+    age = ages[position]
+    print (person, age)
+people = ['hasna', 'chiya', 'isal', 'azka']
+ages = [15, 15, 15, 14]
+nationalities = ['jepang', 'indonesia', 'inggris', 'australia']
+for data in zip (people, ages, nationalities) :
+    person, age, nationality = data
+    print (person, age, nationality)
